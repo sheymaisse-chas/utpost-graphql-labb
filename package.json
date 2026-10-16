@@ -17,6 +17,7 @@
     "lint": "npm run lint --workspace=client",
     "typecheck": "npm run typecheck --workspace=client && npm run typecheck --workspace=api",
     "format:check": "npm run format:check --workspace=client",
+    "format": "npm run format --workspace=client",
     "test": "npm run test --workspace=client",
     "build": "npm run build --workspace=client",
     "mongo:smoke": "npm run mongo:smoke --workspace=api"
